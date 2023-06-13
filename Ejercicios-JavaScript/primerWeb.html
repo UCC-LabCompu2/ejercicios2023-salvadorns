@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Conversor de Unidades</title>
+    <title>Mi primera web</title>
+    <meta name="Autor" content="Salvador Novillo Saravia">
+    <meta name="Description" content="Practica HTML css">
+    <meta name="keywords" content="html, cabecera, css, etiquetas, estilos">
+    
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
     <link href="miEstilo.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="misFunciones.js"></script>
 </head>
-<body class="body-num">
+<body class="body-num" onload="alert('Hola mundo')">
 
 <div class="centrado div-conver">
     <h1>Conversor de Unidades</h1>
@@ -22,7 +26,7 @@
                 <option value="unid_pie">Pies</option>
                 <option value="unid_pulgadas">Pulgadas</option>
             </select>
-            <button>
+            <button onclick="cargarweb()">
                 Segunda Web!
             </button>
         </p>
