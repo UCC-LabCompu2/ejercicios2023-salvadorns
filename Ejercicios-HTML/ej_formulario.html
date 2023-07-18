@@ -18,23 +18,23 @@
     https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output-->
 
 <h3>Suscribase a Nuestro Portal de Noticias! Crear una cuenta es rápido!</h3>
-<form>
+<form id="Fromulario suscripcion">
 <p>
 <label for="nombre">Nombre:</label>
-<input type = "text" name="nombre">
+<input type = "text" name="nombre" placeholder="juan" id="Nombre">
 </p>
 <p>
 <label for="Apellido">Apellido:</label>
-<input type = "text" name="apellido">
+<input type = "text" name="apellido" placeholder="Perez" id="Apellido">
 </p>
 <p>
 Sexo: 
 <br>
 <label for="Masculino">Masculino</label>
-<input type = "radio" value="masculino" name="genero">
+<input type = "radio" value="masculino" name="genero" id="masculino">
 <br>
 <label for="Femenino">Femenino</label>
-<input type = "radio" value="masculino" name="genero">
+<input type = "radio" value="masculino" name="genero" id="Femenino">
 <br>
 </p>
 <p>
@@ -61,8 +61,8 @@ Sexo:
 <input type="password" name="password2">
 </p>
 <p>
-Tipo de servicio: 
-<slect name="Tipo_servicio">
+<label for="Tipo de servicio:" >Tipo de servicio</label>
+<slect name="Tipo_servicio" id="tipo de servivio">
 <option value="Free">Free</option> 
 <option value="Standard">Standard</option>
 <option value="Premium">Premium</option>
@@ -77,8 +77,7 @@ Tecnología <input type="checkbox" name="Tecnologia" value="Tecnologia">
 Salud <input type="checkbox" name="Salud" value="Salud">
 </p>
 <p>
-Agregue un comentario:
-<textarea></textarea>
+<label for="comentario">Agregue un comentario:</label>  <textarea> id= "comentario"</textarea>
 </p>
 <p>
 <button>
