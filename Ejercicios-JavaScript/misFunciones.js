@@ -27,12 +27,24 @@ function convertirUnidades(id,valor){
        
     }
     else if(id == "pulgada"){
-
+        met = valor*12;//numeros cualquiera
+        pul = valor;
+        pie = valor*3.28;
+        yar = valor*1.9;
+        
     }else if (id == "pie"){
-
+        met = valor*12;//numeros cualquiera
+        pul = valor *39.3701;
+        pie = valor;
+        yar = valor*1.9;
+        
     }
     else if(id="yarda"){
-
+        met = valor *12;//numeros cualquiera 
+        pul = valor *39.3701;
+        pie = valor*3.28;
+        yar = valor;
+        
     }
     document.lasunidades.unid_metro.value=met;//asigna el nombre de la variable
     document.lasunidades.unid_pulgada.value=pul;
