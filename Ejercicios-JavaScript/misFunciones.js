@@ -185,8 +185,6 @@ function dibujarcirCuad(){
     ctx.stroke();
     ctx.fill();
 
-
-
 }
 var bandera;
 function dibujar(event){
@@ -212,4 +210,17 @@ function limpiarCanvas(){
     var ctx= canvas.getContext("2d");
 
     canvas.width=canvas.width;
+}
+
+function dibujarImagen(posX,posY){
+    var canvas = document.getElementById("myCanvas");
+    var ctx= canvas.getContext("2d");
+    
+    console.log(posX,posy);
+    img = new Image();
+    img.src = "images/auto.png";
+
+    ctx.onload = function (){
+        ctx.drawImage(img,posX,posY);
+    }
 }
