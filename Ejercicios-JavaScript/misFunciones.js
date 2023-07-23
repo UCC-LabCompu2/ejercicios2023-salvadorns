@@ -216,7 +216,7 @@ function dibujarImagen(posX,posY){
     var canvas = document.getElementById("myCanvas");
     var ctx= canvas.getContext("2d");
     
-    console.log(posX,posy);
+  canvas.width = canvas.width;
     img = new Image();
     img.src = "images/auto.png";
 
@@ -226,13 +226,14 @@ function dibujarImagen(posX,posY){
 }
 x = 0
 dx = 2;
+
 function animarAuto(){
     var canvas = document.getElementById("myCanvas");
     var ctx= canvas.getContext("2d");
 
     canvas.width = canvas.width;
     
-    console.log(posX,posy);
+    
     img = new Image();
     img.src = "images/auto.png";
 
