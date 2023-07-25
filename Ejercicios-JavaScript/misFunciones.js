@@ -5,9 +5,7 @@
  * @param {number} valor - Contiene el valor del input que ingreso el usuario
  */
 
-function convertirUnidades(id,valor) {
-    let met,pul,pie,yar;
-}
+
 function convertirUnidades(id,valor){
     if(isNaN(valor)){
         alert("El valor ingresado es incorrecto");
